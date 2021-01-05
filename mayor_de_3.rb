@@ -9,3 +9,7 @@ num3 = ARGV[2].to_i
 # else num3 > num1 && num3 > num2
 #     puts num3
 # end
+
+puts num1 if num1 > num2 && num1 > num3
+puts num2 if num2 > num3 && num2 > num1
+puts num3 if num3 > num1 && num3 > num2
